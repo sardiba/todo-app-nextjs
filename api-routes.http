@@ -1,0 +1,18 @@
+### hello world
+GET http://localhost:3000/api/hello HTTP/1.1
+
+### /todos
+GET http://localhost:3000/api/todos HTTP/1.1
+
+### /todo GET request
+GET http://localhost:3000/api/todo HTTP/1.1
+
+### /todo POST request
+POST http://localhost:3000/api/todo HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "617090cbc5cfcae243b1b86a",
+    "name": "Learn to swim",
+    "isDone": true
+}
